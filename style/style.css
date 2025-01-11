@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    /* /* margin: 1px;
+   padding: 0; */
+} 
+main{
+    width: 80%;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    
+
+    
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    width: 1280px;
+    height: 560px;
+    padding: 80px 100px;
+    margin: 0 auto;
+}
+.title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+}
+.sub-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.bbtn{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    
+    background: rgb(0, 106, 80);
+    padding: 20px 26px;
+
+
+}
+/* pill style */
+
+.pill{
+    position: static;
+
+/* margin: 0 auto; */
+
+
+    display: flex;
+    gap: 24px;
+    
+    
+}
+.pill-section{
+    margin: 0 auto;
+    width: 1280px;
+}
+.pill-content{
+    padding: 30px;
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+background-color: rgb(244, 252, 252);
+}
+/* vision */
+.vistion{
+    /* border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+        width: 1280px;
+    height: 100%;
+    padding: 24px 48px; */
+
+}
+.box-vistion{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    margin-top: 30px;
+    margin-bottom: 30px ;
+
+}
+.digital{
+    text-align: justify;
+    position: static;
+    width: 410.67px;
+    height: 325px;
+    box-sizing:
+    border-box;
+border-radius: 16px;
+
+background: rgba(84, 144, 245, 0.2);
+padding: 30px;
+}
+
+.green{ 
+      text-align: justify;
+    position: static;
+    width: 410.67px;
+    height: 325px;
+    box-sizing:
+     border-box;
+border-radius: 16px;
+
+background: rgba(84, 144, 245, 0.2);
+padding: 30px;}
+.Modern{
+    text-align: justify;
+    position: static;
+    width: 410.67px;
+    height: 325px;
+    box-sizing:
+     border-box;
+border-radius: 16px;
+
+background: rgba(84, 144, 245, 0.2);
+padding: 30px;}
+
+
+/* yunus */
+.yunus{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+    width: 1280px;
+height: 256px;
+padding: 24px 48px;
+
+
+}
+.yunus-p{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.yunus-title{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.yunus-subtitle{
+    color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* alja style */
+
+.satelight{
+    display: flex;
+    width: 80%;
+    padding: 30px;
+    border-radius: 5px;
+    justify-content: space-around;
+    gap: 32px;
+    margin-top: 50px;
+    align-items: center;
+    /* border: 1px solid gray; */
+    box-shadow: 2px 2px 4px gray;
+    
+}
+.satelight2{
+    display: flex;
+    width: 80%;
+    padding: 30px;
+    border-radius: 5px;
+    justify-content: flex-start;
+    gap: 32px;
+    margin-top: 50px;
+    align-items: center;
+    /* border: 1px solid gray; */
+    box-shadow: 2px 2px 4px gray;
+    
+
+}
+.alja{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.alja-taitle{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.aljap{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.alja-date{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.satelite-img{
+    border-radius: 24px;
+    width: 408px;
+height: 306px;
+}
+.alja-btn{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+
+background: rgb(0, 106, 80);
+padding: 20px 26px;
+}
+
+
+/* box style */
+.box-ss{
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.from-box{
+    padding: 10px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+
+}
+.from-box input{
+
+}
+/* foother */
+.foot{
+    text-align: center;
+}
+.imgf{
+    align-items: center;
+
+}
+.footimg{
+    align-content: ;
+}
+
